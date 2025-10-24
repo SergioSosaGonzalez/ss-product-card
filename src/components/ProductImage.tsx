@@ -26,6 +26,7 @@ export const ProductImage = ({
   }
   return (
     <img
+      data-testid="product-image"
       src={imgToShow}
       alt='Product'
       className={`${styles.productImg} ${className}`}
